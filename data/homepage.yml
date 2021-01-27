@@ -25,12 +25,9 @@ skill:
   - title: SOLIDWORKS Administration
     progress: 70%
     color: "#9473e6"
-  - title: SOLIDWORKS API
+  - title: Programming (API)
     progress: 60%
     color: "#ffbcaa"
-  - title: SOLIDWORKS PDM API
-    progress: 70%
-    color: "#ff0080"
 experience:
   enable: true
   title: Experience
