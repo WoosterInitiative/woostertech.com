@@ -3,7 +3,7 @@ baseURL = "/"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross | Hugo Portfolio Template"
+title = "Wooster Technical Solutions | Unlock Your Software"
 
 # css plugins
 [[params.plugins.css]]
@@ -55,20 +55,20 @@ weight = 5
 # default parameters
 [params]
 home = "Home"
-logo = "images/logo.png"
+logo = "images/WoosterFinal.png"
 # theme color
 theme_color = "#41228e"
 # contact info
-phone = "+880 2544 658 256"
-email = "steve.fruits@email.com"
-address = "125/A, CA Commercial Area, California, USA"
+phone = "509-530-2270"
+email = "info@woostertech.com"
+address = "723 The Parkway, Richland, Washington, USA"
 # meta description
-author = "Johnathan Smith"
+author = "Karl Wooster"
 description = "This is meta description"
 # google analitycs
 google_analitycs_id = "Your ID"
 # copyright
-copyright = "Copyrighht &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2021 a theme by [gethugothemes](https://gethugothemes.com)"
 
 
 # contact
@@ -83,17 +83,17 @@ preloader = "" # use png, jpg, svg or gif format
 
 # social site
 [[params.social]]
-URL = "#"
+URL = "https://www.facebook.com/WoosterTS"
 icon = "ti-facebook"
 
 [[params.social]]
-URL = "#"
+URL = "https://www.instagram.com/woostertech/"
 icon = "ti-instagram"
 
 [[params.social]]
-URL = "#"
-icon = "ti-dribbble"
+URL = "https://twitter.com/Wooster_TS"
+icon = "ti-twitter-alt"
 
 [[params.social]]
-URL = "#"
-icon = "ti-twitter-alt"
+URL = "https://www.instagram.com/woostertech/"
+icon = "ti-linkedin"
