@@ -16,7 +16,7 @@ skill:
   enable: true
   title: Skills
   item:
-  - title: Web Design
+  - title: SOLIDWORKS PDM
     progress: 90%
     color: "#fdb157"
   - title: Logo Design
