@@ -16,6 +16,9 @@ skill:
   enable: true
   title: Skills
   item:
+  - title: SOLIDWORKS PDM API
+    progress: 70%
+    color: "#ff0080"
   - title: SOLIDWORKS PDM
     progress: 90%
     color: "#fdb157"
