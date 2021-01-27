@@ -1,99 +1,64 @@
-# default configuration
 baseURL = "/"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
 title = "Wooster Technical Solutions | Unlock Your Software"
-
-# css plugins
-[[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
-
-[[params.plugins.css]]
-URL = "plugins/slick/slick.css"
-
-[[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
-
-
-# js plugin
-[[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
-
-[[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
-
-[[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
-
-[[params.plugins.js]]
-URL = "plugins/shuffle/shuffle.min.js"
-
-
-# menu
 [[menu.main]]
 URL = "about"
 name = "About"
 weight = 2
-
 [[menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 3
-
 [[menu.main]]
 URL = "portfolio"
 name = "Portfolio"
 weight = 4
-
 [[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 5
-
-
-# default parameters
 [params]
-home = "Home"
-logo = "images/WoosterFinal.png"
-# theme color
-theme_color = "#41228e"
-# contact info
-phone = "509-530-2270"
-email = "info@woostertech.com"
 address = "723 The Parkway, Richland, Washington, USA"
-# meta description
 author = "Karl Wooster"
-description = "This is meta description"
-# google analitycs
-google_analitycs_id = "Your ID"
-# copyright
 copyright = "Copyright &copy; 2021 a theme by [gethugothemes](https://gethugothemes.com)"
-
-
-# contact
+description = "This is meta description"
+email = "info@woostertech.com"
+google_analitycs_id = "Your ID"
+home = "Home"
+logo = "images/WoosterFinal 1000w.png"
+phone = "509-530-2270"
+theme_color = "#41228e"
 [params.contact]
 enable = true
-form_action = "#" # contact form works with : https://formspree.io
-
-# preloader
+form_action = "#"
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
 [params.preloader]
 enable = true
-preloader = "" # use png, jpg, svg or gif format
-
-# social site
+preloader = ""
 [[params.social]]
 URL = "https://www.facebook.com/WoosterTS"
 icon = "ti-facebook"
-
 [[params.social]]
 URL = "https://www.instagram.com/woostertech/"
 icon = "ti-instagram"
-
 [[params.social]]
 URL = "https://twitter.com/Wooster_TS"
 icon = "ti-twitter-alt"
-
 [[params.social]]
-URL = "https://www.instagram.com/woostertech/"
+URL = "https://www.linkedin.com/company/woostertech/"
 icon = "ti-linkedin"
